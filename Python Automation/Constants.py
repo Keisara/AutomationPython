@@ -1,8 +1,8 @@
 URL = "https://github.com/"
 
-Username = "Keisakyu@gmail.com"
+Username = "K.eisakyu@gmail.com"
 UsernameFail = "emailFail@gmail.com"
-Password = "decaskate8"
+Password = "automationtest8"
 PasswordFail = "passwordFail"
 Blank = ""
 
