@@ -2,7 +2,7 @@ URL = "https://github.com/"
 
 Username = "K.eisakyu@gmail.com"
 UsernameFail = "emailFail@gmail.com"
-Password = "automationtest8"
+Password = "automationtet8"
 PasswordFail = "passwordFail"
 Blank = ""
 
