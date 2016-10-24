@@ -4,7 +4,7 @@ from Home_Page import *
 from LogIn_Page import *
 
 # Maximizes the Firefox web browser then launches the github website
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 driver.maximize_window()
 driver.set_page_load_timeout(10)
 driver.implicitly_wait(10)
@@ -22,7 +22,7 @@ for i in range(0, len(usernameArray)):
         LogInPage.Password_Box(driver).send_keys(passwordArray[i])
         LogInPage.LogIn_Button(driver).click()
         # Check for an element that should only exist upon successful login
-        if LogInPage.LogIn_Check(driver).is_displayed() and i == 0:
+        if HomePage.LogOut1_Button(driver).is_displayed() and i == 0:
             # A Successful login will pass if it is Case 1
             print(caseArray[i], end=" | PASS\n")
             HomePage.LogOut1_Button(driver).click()
